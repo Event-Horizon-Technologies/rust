@@ -19,4 +19,12 @@ fn main() {
     let element = a[index];
 
     println!("The value of the element at index {index} is: {element}");
+
+    for element in a {
+        println!("Element: {element}")
+    }
+
+    for element in 1..=4 {
+        println!("Element: {element}")
+    }
 }
