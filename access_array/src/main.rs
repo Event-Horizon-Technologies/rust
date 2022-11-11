@@ -6,7 +6,6 @@ fn main() {
     println!("Please enter an array index.");
 
     let mut index = String::new();
-
     io::stdin()
         .read_line(&mut index)
         .expect("Failed to read line");
